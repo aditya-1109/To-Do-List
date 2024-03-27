@@ -1,0 +1,108 @@
+/* background */
+
+#container{
+  background-color: rgb(48, 223, 200);
+  height: auto;
+  width: auto;
+  padding: 5rem;
+  margin: 5rem;
+  margin-top: 0rem;
+}
+#list-container{
+  background-color: rgb(182, 238, 218);
+  height: fit-content;
+  width: auto;
+  padding: 3rem;
+  overflow:scroll;
+}
+
+/* input text */
+
+#input{
+  border-radius: 10%;
+  border-color: gray;
+  border-width: 0.5rem;
+  width:90%;
+  height: 50px;
+}
+
+/* add button */
+
+#add{
+  background-color: rgb(5, 39, 2);
+  color: white;
+}
+
+/* list */
+.lists{
+  border:0.2rem solid black;
+  background-color: white;
+  list-style-type: circle;
+  width: 90%;
+  height: 40px;
+  margin-bottom: 2px;
+  margin-left: -40px;
+}
+
+.lists:nth-child(2n){
+  background-color: rgb(48, 223, 200);
+}
+
+.lists:hover{
+  font-size: large;
+  box-sizing: border-box;
+  background-color: rgb(86, 186, 172);
+  .closeButton{
+    display: block;
+  }
+}
+
+.closeButton{
+  border: none;
+  float: right;
+  margin-top: 1%;
+  background: none;
+  font-size: large;
+  display: none;
+}
+
+.selected{
+  background-color: rgb(194, 223, 48) !important;
+}
+
+/* upper list elements */
+
+#clear-all-task{
+  color: rgb(72, 70, 70);
+  position: relative;
+  font-size: small;
+  display: inline-block;
+}
+
+#complete-all{
+  color: rgb(72, 70, 70);
+  position: relative;
+  font-size: small;
+  display: inline-block;
+  margin-left: 20%;
+}
+#clear-completed{
+  color: rgb(72, 70, 70);
+  font-size: small;
+  position: relative;
+  float: right;
+}
+
+/* bottom element */
+.seperate{
+  font-size: small;
+  float: right;
+  margin-left: 2%;
+}
+
+.seperate:hover{
+  cursor: pointer;
+}
+.unvisible{
+  display: none;
+}

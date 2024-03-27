@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>
+        TO DO LIST
+    </title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <div id="list-container">
+      <section id="input-text">
+      <input id="input" type="text" placeholder="Type Your To Do List Here...">
+      <button id="add" onclick="addEl()">Add</button>
+    </section>
+    <section id="clear-all-task">
+      <input id="comp" style="display: inline" type="Checkbox">
+      <p id="complete" style="display: inline">clear all tasks</p>
+    </section>
+    <section id="complete-all">
+      <input id="ctask" style="display: inline" type="Checkbox">
+      <p id="completeAll" style="display: inline">complete all tasks</p>
+    </section>
+    <section id="clear-completed">
+      <input id="clea" style="display: inline" type="checkbox">
+      <p id="clear" style="display: inline"> clear completed</p>
+    </section>
+      <hr>
+      <ul id="list"></ul>
+      <hr>
+      <div id="number">0 task left</div>
+      <div>
+        <section id="visible-items">
+        <span class="seperate" id="All">All</span>
+        <span class="seperate" id="select">Selected</span>
+        <span class="seperate" id="unselected">Unselected</span>
+      </section>
+      </div>
+    </div>
+  </div>
+  <script src="javasc.js"></script>
+</body>
+</html>
